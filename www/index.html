@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script src="js/lib.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    System.import("app")
+        .then(function() {
+            console.info("System.import was successful.");
+        })
+        .catch(function(response) {
+            console.error("Error in System.import, could not bootstrap.", response);
+        });
+    </script>
+</body>
+</html>

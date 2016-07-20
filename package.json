@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-tslint": "^6.0.1",
+    "gulp-typescript": "^2.13.6",
+    "tslint": "^3.13.0"
+  },
+  "dependencies": {
+    "es6-shim": "^0.35.1",
+    "systemjs": "^0.19.31"
+  }
+}
